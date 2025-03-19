@@ -1,19 +1,19 @@
 {
-    "version": "136.0-2",
+    "version": "136.0.2-1",
     "description": "A fork of Firefox, focused on privacy, security and freedom.",
     "homepage": "https://librewolf.net/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/136.0-2/librewolf-136.0-2-windows-x86_64-portable.zip",
-            "hash": "fd293e0d903d3f17e21fe2387ed28c31b7318c6255dd133d5a7a1f69f5948323"
+            "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/136.0.2-1/librewolf-136.0.2-1-windows-x86_64-portable.zip",
+            "hash": "0e931cccc3b27bdcfe3880fbdb0b0461f761f91b22d74c86e8a4caf9693d2b3f"
         },
         "32bit": {
-            "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/136.0-2/librewolf-136.0-2-windows-i686-portable.zip",
-            "hash": "f282acd89b00c94bb6c1954b40e1f38eec17ae6dd019f1d9a05323f82ea16b0c"
+            "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/136.0.2-1/librewolf-136.0.2-1-windows-i686-portable.zip",
+            "hash": "bd0fa12751d52ca76f27d6026842a514803928554702363d3dfd91f45f9b29dc"
         }
     },
-    "extract_dir": "librewolf-136.0-2",
+    "extract_dir": "librewolf-136.0.2-1",
     "pre_install": [
         "'LibreWolf-WinUpdater.exe', 'ScheduledTask-Create.ps1', 'ScheduledTask-Remove.ps1' | ForEach-Object { \"$dir/$_\" } | Remove-Item",
         "",
